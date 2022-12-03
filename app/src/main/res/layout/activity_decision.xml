@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen_background"
+    tools:context=".DecisionActivity">
+
+    <TextView
+        android:id="@+id/welcome_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/welcome_to_my_yatra"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/signout"-->
+    <!--        android:layout_width="181dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginBottom="19dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Sign out" />-->
+
+    <TextView
+        android:id="@+id/Is_Your_Tickets_Going_Waste_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_headline"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:text="@string/is_your_tickets_going_to_waste"
+        android:textColor="#FEFEFE"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_sell_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Is_Your_Tickets_Going_Waste_headline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="@string/sell_your_tickets_here" />
+
+    <TextView
+        android:id="@+id/Why_cancel_when_you_can_Transfer_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Is_Your_Tickets_Going_Waste_headline"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:text="@string/why_cancel_when_you_can_transfer"
+        android:textColor="#FEFEFE"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Find_Your_Dream_Yatras_Here_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Planning_For_Yatra_headline"
+        android:layout_marginTop="39dp"
+        android:gravity="center"
+        android:text="@string/find_your_dream_yatras_here"
+        android:textColor="#FEFEFE"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_buy_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Planning_For_Yatra_headline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="@string/buy_tickets" />
+
+
+    <TextView
+        android:id="@+id/Planning_For_Yatra_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Why_cancel_when_you_can_Transfer_headline"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:text="@string/planning_for_new_yatra"
+        android:textColor="#FEFEFE"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Find_Your_Dream_Yatras_Here_headline"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="107dp"
+        android:gravity="center"
+        android:text="@string/sign_out" />
+
+</RelativeLayout>

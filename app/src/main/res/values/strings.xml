@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ticket Reselling</string>
+    <string name="planning_for_new_yatra">Planning For New Yatra ?</string>
+    <string name="welcome_to_my_yatra">Welcome To My Yatra !</string>
+    <string name="is_your_tickets_going_to_waste">Is Your Tickets Going To Waste ?</string>
+    <string name="sell_your_tickets_here">Sell Your Tickets Here</string>
+    <string name="why_cancel_when_you_can_transfer">Why Cancel When You Can Transfer.</string>
+    <string name="find_your_dream_yatras_here">Find Your Dream Yatras Here.</string>
+    <string name="buy_tickets">Buy Tickets</string>
+    <string name="sign_out">Sign out</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_user_user_name">Enter User User Name</string>
+    <string name="proceed">proceed</string>
+    <string name="update_password">Update Password</string>
+    <string name="password">Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="user_name">User Name</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="date">Date</string>
+    <string name="user_contact">User Contact</string>
+    <string name="new_user_sign_up_here">New User? Sign Up Here</string>
+</resources>
